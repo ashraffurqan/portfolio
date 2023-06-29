@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
 import Typewriter from 'typewriter-effect';
+import dp from '../../../public/dp.jpg'
 
 const Hero = () => {
   return (
@@ -42,8 +43,8 @@ const Hero = () => {
           alt="Profile Pic"
           height={300}
           width={300}
-          src={require("../../../public/dp.jpg")}
-        />
+          src={dp}>
+          </Image>
       </div>
     </div>
   </section>

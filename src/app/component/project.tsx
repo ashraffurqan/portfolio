@@ -78,7 +78,7 @@ const Project = () => {
                 Pharmacy
               </h2>
               <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                Pharmacy Intro
+                Pharmacy Introo
               </h1>
               <p className="leading-relaxed">
                We deal all types of Pharmacy
