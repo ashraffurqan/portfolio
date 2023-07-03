@@ -5,7 +5,8 @@ import React from 'react'
 import Typewriter from 'typewriter-effect';
 import dp from '../../../public/dp.jpg'
 
-const Hero = () => {
+ export const Hero = () => {
+  
   return (
     <section className="text-gray-600 body-font bg-gray-50" >
     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
