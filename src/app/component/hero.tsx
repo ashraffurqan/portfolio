@@ -43,8 +43,8 @@ const Hero = () => {
           alt="Profile Pic"
           height={300}
           width={300}
-          src={dp}>
-          </Image>
+          src={dp}
+          />
       </div>
     </div>
   </section>
