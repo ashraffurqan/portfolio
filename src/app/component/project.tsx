@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-
+import project from "../../../public/project.jpg"
+import car from "../../../public/car.jpg"
 import Image from 'next/image'
 import pro1 from "../../../public/pro1.jpg"
 const Project = () => {
@@ -17,12 +18,14 @@ const Project = () => {
         {/* start project data */}
         <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
           <div className="flex relative">
-            <img
+            <Image
               alt="gallery"
               className="absolute inset-0 w-full h-full object-cover object-center"
-              src="project.jpg"
+              src={project}
+              height={300}
+              width={300}
             />
-            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-300">
               <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                 E-Comm Project
               </h2>
@@ -47,10 +50,10 @@ const Project = () => {
               alt="gallery"
               className="absolute inset-0 w-full h-full object-cover object-center"
               src= {pro1}
-              height={100}
-              width={100}
+              height={300}
+              width={300}
             />
-            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-300">
               <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                 Pharmacy
               </h2>
@@ -71,12 +74,14 @@ const Project = () => {
  {/* start project data 3 */}
  <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
           <div className="flex relative">
-            <img
+            <Image
               alt="gallery"
               className="absolute inset-0 w-full h-full object-cover object-center"
-              src="car.jpg"
+              src={car}
+              height={300}
+              width={300}
             />
-            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-300">
               <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                 Pharmacy
               </h2>
