@@ -10,7 +10,7 @@ import Skill from "./component/skill"
 export default function Home() {
   return(
   <div>
-<Hero />
+{/* <Hero /> */}
 <About />
 <Skill />
 <Project />
