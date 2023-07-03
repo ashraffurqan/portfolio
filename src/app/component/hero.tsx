@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 import dp from '../../../public/dp.jpg'
 
  export const Hero = () => {
