@@ -24,7 +24,7 @@ const Hero = () => {
         </h1>
         <div className='w-[50px] h-[2px]  bg-blue-700'></div>
         <p className="mb-8 leading-relaxed">
-        Hey there! I'm a  Web Developer. I can help you using the following technologies:
+        Hey there! I'm a  Web Developer. I can help you using the followaing technologies:
          HTML5, CSS, JavaScript, React, Express, NextJS,   API,
          Chrome Extension, Shopify. I am looking forward to working for you and building a long-term relationship!
         </p>
