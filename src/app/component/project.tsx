@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import project from "../../../public/project.jpg"
-import sql from "@/app/sql.jpg"
-import gallery from "@/app/gallery.jpg"
+import sql1 from "@/app/sql.jpg"
+import gallery1 from "@/app/gallery.jpg"
 import Image from 'next/image'
 
 
@@ -51,7 +51,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={gallery}
+                  src={gallery1}
                   height={300}
                   width={300}
                 />
@@ -79,7 +79,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={sql}
+                  src={sql1}
                   height={300}
                   width={300}
                 />
