@@ -2,9 +2,9 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-import project from "/public/project.jpg";
-import sql1 from "/public/sql.jpg";
-import gallery1 from "/public/gallery.jpg";
+import project from "/public/project.JPG";
+import sql1 from "/public/sql.JPG";
+import gallery1 from "/public/gallery.JPG";
 
 const Project = () => {
   return (
