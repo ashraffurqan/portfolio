@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
-import project from "../../../public/project.jpg"
-import sql1 from "@/app/sql.jpg"
-import gallery1 from "@/app/gallery.jpg"
+
+import project from "/public/project.jpg"
+import sql1 from "/public/sql.jpg"
+import gallery1 from "/public/gallery.jpg"
+
 import Image from 'next/image'
 
 
