@@ -1,12 +1,10 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
+import Image from 'next/image';
 
-import project from "/public/project.jpg"
-import sql1 from "/public/sql.jpg"
-import gallery1 from "/public/gallery.jpg"
-
-import Image from 'next/image'
-
+import project from "/public/project.jpg";
+import sql1 from "/public/sql.jpg";
+import gallery1 from "/public/gallery.jpg";
 
 const Project = () => {
   return (
@@ -23,7 +21,7 @@ const Project = () => {
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
+                  alt="project"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
                   src={project}
                   height={300}
@@ -37,9 +35,9 @@ const Project = () => {
                     Ecomm online Delivery Sites
                   </h1>
                   <p className="leading-relaxed">
-                    wold wide online store many tems are there and very attractive discount and deals
+                    World-wide online store with many items, offering attractive discounts and deals.
                   </p>
-                  <Link target='blank' href={"https://asanmart.vercel.app/"}>
+                  <Link target='_blank' href={"https://asanmart.vercel.app/"}>
                     <p className="leading-relaxed">
                       View Project
                     </p>
@@ -62,12 +60,12 @@ const Project = () => {
                     Gallery App
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Gallery App Using with Cloudinay
+                    Gallery App Using Cloudinary
                   </h1>
                   <p className="leading-relaxed">
-                    Manage Profile Image or other help of cloudinay Server
+                    Manage profile images and other features using Cloudinary Server.
                   </p>
-                  <Link target='blank' href={"https://galler-app.vercel.app/"}>
+                  <Link target='_blank' href={"https://galler-app.vercel.app/"}>
                     <p className="leading-relaxed">
                       View Project
                     </p>
@@ -75,11 +73,11 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            {/* start project data 33 */}
+            {/* start project data 3 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
+                  alt="sql"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
                   src={sql1}
                   height={300}
@@ -90,12 +88,12 @@ const Project = () => {
                     SQL Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Sql Project for save data in database
+                    SQL Project for Saving Data in Database
                   </h1>
                   <p className="leading-relaxed">
-                    using serverless database for save time or power with vercel postgress databse
+                    Using serverless database to save time or power with Vercel PostgreSQL database.
                   </p>
-                  <Link target='blank' href={"https://office-project-lake.vercel.app"}>
+                  <Link target='_blank' href={"https://office-project-lake.vercel.app"}>
                     <p className="leading-relaxed">
                       View Project
                     </p>
@@ -110,4 +108,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Project;
