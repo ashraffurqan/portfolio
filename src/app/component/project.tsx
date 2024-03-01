@@ -73,7 +73,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            {/* start project data 3 */}
+            {/* start project data 33 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
