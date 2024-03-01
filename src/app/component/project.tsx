@@ -47,7 +47,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={'/gallery.jpg'}
+                  src={'/gallery.JPG'}
                   height={600}
                   width={600}
                 />
@@ -75,7 +75,7 @@ const Project = () => {
                 <Image
                   alt="sql"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={'/sql.jpg'}
+                  src={'/sql.JPG'}
                   height={600}
                   width={600}
                 />
