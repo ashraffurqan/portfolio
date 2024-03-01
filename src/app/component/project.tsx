@@ -2,10 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-import project from "/public/project.JPG";
-import sql1 from "/public/sql.JPG";
-import gallery1 from "/public/gallery.JPG";
-
 const Project = () => {
   return (
     <div id='project'>
@@ -23,9 +19,9 @@ const Project = () => {
                 <Image
                   alt="project"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={project}
-                  height={300}
-                  width={300}
+                  src={'/project.jpg'}
+                  height={600}
+                  width={600}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-10 hover:opacity-80">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -51,9 +47,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={gallery1}
-                  height={300}
-                  width={300}
+                  src={'/gallery.jpg'}
+                  height={600}
+                  width={600}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-10 hover:opacity-80">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -79,9 +75,9 @@ const Project = () => {
                 <Image
                   alt="sql"
                   className="absolute inset-0 w-[50rem] h-[15rem] object-cover object-center"
-                  src={sql1}
-                  height={300}
-                  width={300}
+                  src={'/sql.jpg'}
+                  height={600}
+                  width={600}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-10 hover:opacity-80">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
