@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
 import project from "../../../public/project.jpg"
-import sql from "@/app/component/sql.jpg"
-import gallery from "@/app/component/gallery.jpg"
+import sql from "@/app/sql.jpg"
+import gallery from "@/app/gallery.jpg"
 import Image from 'next/image'
-import pro1 from "../../../public/pro1.jpg"
+
 
 const Project = () => {
   return (
