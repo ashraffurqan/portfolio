@@ -15,7 +15,7 @@ import dp from '../../../public/dp.jpg'
         I Am 
         <Typewriter
   options={{
-    strings: ['Web Developer', 'UI/UX Designer'],
+    strings: ['Web Developer', 'UI/UX Designer','Develope Custom GPt', 'Integrate Openai with Next.js'],
     autoStart: true,
     loop: true,
   }}
@@ -26,7 +26,8 @@ import dp from '../../../public/dp.jpg'
         <div className='w-[50px] h-[2px]  bg-blue-700'></div>
         <p className="mb-8 leading-relaxed">
         Hey there! I'm a  Web Developer. I can help you using the followaing technologies:
-         HTML5, CSS, JavaScript, React, Express, NextJS,   API,
+         HTML5, CSS, JavaScript, React, Express, NextJS,   API, Rest FUL API
+         Custom GPT, Open AI, Python , FastAPI, SQlModel, StreamLit
          Chrome Extension, Shopify. I am looking forward to working for you and building a long-term relationship!
         </p>
 
