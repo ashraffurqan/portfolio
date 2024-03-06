@@ -11,9 +11,9 @@ export default function Home() {
   return(
   <div>
 <Hero />
-<About />
 <Skill />
 <Project />
+<About />
 <Contact />
 
 
