@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import dp from '../../../public/dp.jpg'
+import dp from '../../../public/dp1.jpg'
 
  export const Hero = () => {
   
@@ -27,7 +27,7 @@ import dp from '../../../public/dp.jpg'
         <p className="mb-8 leading-relaxed">
         Hey there! I'm a  Web Developer. I can help you using the followaing technologies:
          HTML5, CSS, JavaScript, React, Express, NextJS,   API, Rest FUL API
-         Custom GPT, Open AI, Python , FastAPI, SQlModel, StreamLit
+         Custom GPT, Open AI, Python , FastAPI, SQlModel, StreamL
          Chrome Extension, Shopify. I am looking forward to working for you and building a long-term relationship!
         </p>
 
