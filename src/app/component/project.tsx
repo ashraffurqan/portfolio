@@ -22,7 +22,7 @@ const Project = () => {
                 <Link target='_blank' href={"https://asanmart.vercel.app/"}>
                   <Image
                     alt="project"
-                    className="object-cover object-center"
+                    className="object-cover object-center h-[400px] w-[600px]"
                     src={'/project.jpg'}
                     height={400}
                     width={600}
@@ -53,7 +53,7 @@ const Project = () => {
                 <Link target='_blank' href={"https://galler-app.vercel.app/"}>
                   <Image
                     alt="gallery"
-                    className="object-cover object-center"
+                    className="object-cover object-center h-[400px] w-[600px]"
                     src={'/gallery.JPG'}
                     height={400}
                     width={600}
@@ -84,7 +84,7 @@ const Project = () => {
                 <Link target='_blank' href={"https://office-project-lake.vercel.app"}>
                   <Image
                     alt="sql"
-                    className="object-cover object-center"
+                    className="object-cover object-center h-[400px] w-[600px]"
                     src={'/sql.JPG'}
                     height={400}
                     width={600}
@@ -95,7 +95,7 @@ const Project = () => {
                     SQL Project
                   </h2>
                   <h1 className="title-font text-lg font-semibold text-gray-900 mb-3">
-                    SQL Project for Database Management
+                    SQL Database Management
                   </h1>
                   <p className="leading-relaxed text-base text-gray-600 mb-4">
                     Using a serverless database to save time and optimize power consumption, powered by Vercel's PostgreSQL database.
@@ -116,7 +116,7 @@ const Project = () => {
                 <Link target='_blank' href={"https://hiringmine.vercel.app/"}>
                   <Image
                     alt="sql"
-                    className="object-cover object-center"
+                    className="object-cover object-center h-[400px] w-[600px]"
                     src={'/hiringmine.JPG'}
                     height={400}
                     width={600}
@@ -149,7 +149,7 @@ const Project = () => {
                 <Link target='_blank' href={"https://saylani-p5ca.vercel.app/"}>
                   <Image
                     alt="sql"
-                    className="object-cover object-center"
+                    className="object-cover object-center h-[400px] w-[600px]"
                     src={'/iphone.JPG'}
                     height={400}
                     width={600}
@@ -183,7 +183,7 @@ const Project = () => {
                 <Link target='_blank' href={"https://office-project-lake.vercel.app"}>
                   <Image
                     alt="sql"
-                    className="object-cover object-center"
+                    className="object-cover object-center h-[400px] w-[600px]"
                     src={'/saylani.JPG'}
                     height={400}
                     width={600}
